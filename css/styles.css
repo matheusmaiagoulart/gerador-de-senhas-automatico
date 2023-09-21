@@ -1,0 +1,78 @@
+*{
+    font-family: sans-serif;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    background-color: #18181b;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.logo{
+    max-width: 600px;
+    margin-bottom: 3rem;
+}
+#container-input{
+    max-width: 630px;
+    margin: 14px 0;
+}
+#contaier-input span{
+    font-size: 2rem;
+}
+input#slider-btn{
+    
+    -webkit-appearance: none;
+    width: 100%;
+    border-radius: 5px;
+    background: #dfdfdf;
+    height: 18px;
+    outline: none;
+    margin-top: 8px;
+}
+.button{
+    height: 40px;
+    background-color: #3eb72b;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 3.2rem;
+}
+.container-password{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+    align-items: center;
+}
+span.title{
+    font-size: 2rem;
+    margin-top: 0.5rem;
+}
+.container-password span#password{
+    
+   max-width: 41.3%;
+   padding: 1rem;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+    background-color: rgba(0,0,0,0.40);
+    cursor: pointer;
+    
+}
+span.message {
+    max-width: 41.3%;
+    padding: 1rem;
+    background-color: rgba(0,0,0,0.40);
+    font-size: 1.2rem;
+    margin-top: 0.7rem;
+    
+}
+.hide{
+    display: none;
+}
